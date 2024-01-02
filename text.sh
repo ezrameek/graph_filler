@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for((i=1;i<=10;i++));
+for((i=1;i<=3;i++));
 do   
     echo "1" >> file.txt
     git add .
@@ -8,6 +8,3 @@ do
     git branch -M main
     git push -u origin main   
 done
-
-
-
