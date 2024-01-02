@@ -1,7 +1,13 @@
+#!/bin/bash
 
-echo "1" >> file.txt
-git add .
-git commit -m "files"
-git branch -M main
-git push -u origin main
+for((i=1;i<=10;i++));
+do   
+    echo "1" >> file.txt
+    git add .
+    git commit -m "files"
+    git branch -M main
+    git push -u origin main   
+done
+
+
 
